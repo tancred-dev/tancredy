@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":258:{a:2:{s:7:"defects";a:2:{s:37:"ArchitectureTest::testDirectoryExists";i:3;s:42:"Test\ArchitectureTest::testDirectoryExists";i:3;}s:5:"times";a:2:{s:37:"ArchitectureTest::testDirectoryExists";d:0.003;s:42:"Test\ArchitectureTest::testDirectoryExists";d:0.002;}}}
