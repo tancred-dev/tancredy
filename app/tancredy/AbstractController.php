@@ -1,6 +1,9 @@
 <?php
  
 namespace Tancredy;
+
+
+
  
 abstract class AbstractController
 {
@@ -16,5 +19,13 @@ abstract class AbstractController
     protected function render($view, $vars = [])
     {
         return $this->templateEngine->render($view.'.html.twig', $vars);
+    }
+
+    public function redirectTo($url)
+    { 
+        header("Location: ".$url); 
+    } 
+    public function flash(){
+        return new FlashBag();
     }
 }
